@@ -73,6 +73,9 @@
             <configuration>
                 <source>17</source> <!-- Specify Java 17 for the source code -->
                 <target>17</target> <!-- Specify Java 17 for the bytecode target -->
+                <compilerArgs>
+                    <arg>--add-opens=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>
+                </compilerArgs>
             </configuration>
         </plugin>
     </plugins>
