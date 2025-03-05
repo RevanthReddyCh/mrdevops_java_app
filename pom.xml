@@ -69,7 +69,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.7</version> <!-- Use an appropriate version of the compiler plugin -->
+            <version>3.9.0</version> <!-- Use an appropriate version of the compiler plugin -->
             <configuration>
                 <source>17</source> <!-- Specify Java 17 for the source code -->
                 <target>17</target> <!-- Specify Java 17 for the bytecode target -->
